@@ -1,11 +1,5 @@
 import "./App.css";
 import logo from "./icons/logo.webp";
-import site1 from "./images/Site1.webp";
-import site2 from "./images/Site2.webp";
-import site3 from "./images/Site3.webp";
-import site4 from "./images/Site4.webp";
-import site5 from "./images/Site5.webp";
-import site6 from "./images/Site6.webp";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -18,7 +12,7 @@ function App() {
   const [modal, setModal] = useState(false);
   const [info, setInfo] = useState(null);
 
-  const clientNum = 3;
+  const clientNum = 2;
   const packageNum = 4;
 
   const modalInfo = [
@@ -91,13 +85,13 @@ function App() {
             <span>Jim's Art</span>
             <span>Bringing your ideas into reality</span>
             <div>
-              <a href="https://facebook.com/JimsArtUSA" target="_blank">
+              <a href="https://facebook.com/JimsArtUSA" target="_blank" rel="noreferrer">
                 <FaFacebook />
               </a>
-              <a href="https://instagram.com/jimsart.usa" target="_blank">
+              <a href="https://instagram.com/jimsart.usa" target="_blank" rel="noreferrer">
                 <FaInstagram />
               </a>
-              <a href="https://wa.me/2349117091195" target="_blank">
+              <a href="https://wa.me/2349117091195" target="_blank" rel="noreferrer">
                 <FaWhatsapp />
               </a>
             </div>
